@@ -1,0 +1,16 @@
+D:\w3resource\Basic Declarations and Expressions\bin\Debug\net5.0\Basic Declarations and Expressions.exe
+D:\w3resource\Basic Declarations and Expressions\bin\Debug\net5.0\Basic Declarations and Expressions.deps.json
+D:\w3resource\Basic Declarations and Expressions\bin\Debug\net5.0\Basic Declarations and Expressions.runtimeconfig.json
+D:\w3resource\Basic Declarations and Expressions\bin\Debug\net5.0\Basic Declarations and Expressions.runtimeconfig.dev.json
+D:\w3resource\Basic Declarations and Expressions\bin\Debug\net5.0\Basic Declarations and Expressions.dll
+D:\w3resource\Basic Declarations and Expressions\bin\Debug\net5.0\ref\Basic Declarations and Expressions.dll
+D:\w3resource\Basic Declarations and Expressions\bin\Debug\net5.0\Basic Declarations and Expressions.pdb
+D:\w3resource\Basic Declarations and Expressions\obj\Debug\net5.0\Basic Declarations and Expressions.csproj.AssemblyReference.cache
+D:\w3resource\Basic Declarations and Expressions\obj\Debug\net5.0\Basic Declarations and Expressions.GeneratedMSBuildEditorConfig.editorconfig
+D:\w3resource\Basic Declarations and Expressions\obj\Debug\net5.0\Basic Declarations and Expressions.AssemblyInfoInputs.cache
+D:\w3resource\Basic Declarations and Expressions\obj\Debug\net5.0\Basic Declarations and Expressions.AssemblyInfo.cs
+D:\w3resource\Basic Declarations and Expressions\obj\Debug\net5.0\Basic Declarations and Expressions.csproj.CoreCompileInputs.cache
+D:\w3resource\Basic Declarations and Expressions\obj\Debug\net5.0\Basic Declarations and Expressions.dll
+D:\w3resource\Basic Declarations and Expressions\obj\Debug\net5.0\ref\Basic Declarations and Expressions.dll
+D:\w3resource\Basic Declarations and Expressions\obj\Debug\net5.0\Basic Declarations and Expressions.pdb
+D:\w3resource\Basic Declarations and Expressions\obj\Debug\net5.0\Basic Declarations and Expressions.genruntimeconfig.cache
