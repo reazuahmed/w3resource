@@ -6,4 +6,8 @@
     <RootNamespace>Basic_Declarations_and_Expressions</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="EO.WebBrowser" Version="22.1.67" />
+  </ItemGroup>
+
 </Project>
