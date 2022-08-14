@@ -1,5 +1,18 @@
 ASP.NET Core MVC CRUD - .NET 6 MVC CRUD Operations Using Entity Framework Core and SQL Server
 	https://www.youtube.com/watch?v=2Cp8Ti_f9Gk
+	
+	Problems at:
+	============
+		49:09
+
+ASP.NET CORE WEB API CRUD With Angular 13 - .NET 6 WEB API With Angular 13 CRUD Website
+	https://www.youtube.com/watch?v=eCbaZixsP-s
+
+ASP.NET 6 Core CRUD operations using SQL stored procedure and Dapper in Hindi
+	https://www.youtube.com/watch?v=wSUprBNgsCo
+
+Angular 14 CRUD with .NET 6 Web API using Entity Framework Core - Full Course
+	https://www.youtube.com/watch?v=CdE6rVfPJ9I
 
 ASP.NET Core Web API CRUD With Entity Framework - Full Course ⭐ [.NET6 API]
 	https://www.youtube.com/watch?v=3NWT9k-6xGg

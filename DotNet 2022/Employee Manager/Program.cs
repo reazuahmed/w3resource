@@ -1,3 +1,6 @@
+//ASP.NET Core MVC CRUD - .NET 6 MVC CRUD Operations Using Entity Framework Core and SQL Server
+//https://www.youtube.com/watch?v=2Cp8Ti_f9Gk
+
 using Employee_Manager.Data;
 using Microsoft.EntityFrameworkCore;
 
@@ -5,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<MVCDBContext>(options =>
+builder.Services.AddDbContext<MVCDbContext>(options =>
     options.UseSqlServer(builder.Configuration
     .GetConnectionString("MvcConnectionString")));
 

@@ -6,24 +6,6 @@ D:\DotNet 2022\Employee Manager\bin\Debug\net6.0\Employee Manager.deps.json
 D:\DotNet 2022\Employee Manager\bin\Debug\net6.0\Employee Manager.runtimeconfig.json
 D:\DotNet 2022\Employee Manager\bin\Debug\net6.0\Employee Manager.dll
 D:\DotNet 2022\Employee Manager\bin\Debug\net6.0\Employee Manager.pdb
-D:\DotNet 2022\Employee Manager\obj\Debug\net6.0\Employee Manager.csproj.AssemblyReference.cache
-D:\DotNet 2022\Employee Manager\obj\Debug\net6.0\Employee Manager.GeneratedMSBuildEditorConfig.editorconfig
-D:\DotNet 2022\Employee Manager\obj\Debug\net6.0\Employee Manager.AssemblyInfoInputs.cache
-D:\DotNet 2022\Employee Manager\obj\Debug\net6.0\Employee Manager.AssemblyInfo.cs
-D:\DotNet 2022\Employee Manager\obj\Debug\net6.0\Employee Manager.csproj.CoreCompileInputs.cache
-D:\DotNet 2022\Employee Manager\obj\Debug\net6.0\Employee Manager.MvcApplicationPartsAssemblyInfo.cache
-D:\DotNet 2022\Employee Manager\obj\Debug\net6.0\Employee Manager.RazorAssemblyInfo.cache
-D:\DotNet 2022\Employee Manager\obj\Debug\net6.0\Employee Manager.RazorAssemblyInfo.cs
-D:\DotNet 2022\Employee Manager\obj\Debug\net6.0\staticwebassets.build.json
-D:\DotNet 2022\Employee Manager\obj\Debug\net6.0\staticwebassets.development.json
-D:\DotNet 2022\Employee Manager\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
-D:\DotNet 2022\Employee Manager\obj\Debug\net6.0\scopedcss\bundle\Employee Manager.styles.css
-D:\DotNet 2022\Employee Manager\obj\Debug\net6.0\scopedcss\projectbundle\Employee Manager.bundle.scp.css
-D:\DotNet 2022\Employee Manager\obj\Debug\net6.0\Employee Manager.dll
-D:\DotNet 2022\Employee Manager\obj\Debug\net6.0\refint\Employee Manager.dll
-D:\DotNet 2022\Employee Manager\obj\Debug\net6.0\Employee Manager.pdb
-D:\DotNet 2022\Employee Manager\obj\Debug\net6.0\Employee Manager.genruntimeconfig.cache
-D:\DotNet 2022\Employee Manager\obj\Debug\net6.0\ref\Employee Manager.dll
 D:\DotNet 2022\Employee Manager\bin\Debug\net6.0\Humanizer.dll
 D:\DotNet 2022\Employee Manager\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 D:\DotNet 2022\Employee Manager\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
@@ -58,4 +40,22 @@ D:\DotNet 2022\Employee Manager\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\
 D:\DotNet 2022\Employee Manager\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 D:\DotNet 2022\Employee Manager\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 D:\DotNet 2022\Employee Manager\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\DotNet 2022\Employee Manager\obj\Debug\net6.0\Employee Manager.csproj.AssemblyReference.cache
+D:\DotNet 2022\Employee Manager\obj\Debug\net6.0\Employee Manager.GeneratedMSBuildEditorConfig.editorconfig
+D:\DotNet 2022\Employee Manager\obj\Debug\net6.0\Employee Manager.AssemblyInfoInputs.cache
+D:\DotNet 2022\Employee Manager\obj\Debug\net6.0\Employee Manager.AssemblyInfo.cs
+D:\DotNet 2022\Employee Manager\obj\Debug\net6.0\Employee Manager.csproj.CoreCompileInputs.cache
+D:\DotNet 2022\Employee Manager\obj\Debug\net6.0\Employee Manager.MvcApplicationPartsAssemblyInfo.cache
+D:\DotNet 2022\Employee Manager\obj\Debug\net6.0\Employee Manager.RazorAssemblyInfo.cache
+D:\DotNet 2022\Employee Manager\obj\Debug\net6.0\Employee Manager.RazorAssemblyInfo.cs
+D:\DotNet 2022\Employee Manager\obj\Debug\net6.0\staticwebassets.build.json
+D:\DotNet 2022\Employee Manager\obj\Debug\net6.0\staticwebassets.development.json
+D:\DotNet 2022\Employee Manager\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\DotNet 2022\Employee Manager\obj\Debug\net6.0\scopedcss\bundle\Employee Manager.styles.css
+D:\DotNet 2022\Employee Manager\obj\Debug\net6.0\scopedcss\projectbundle\Employee Manager.bundle.scp.css
 D:\DotNet 2022\Employee Manager\obj\Debug\net6.0\Employee Manager.csproj.CopyComplete
+D:\DotNet 2022\Employee Manager\obj\Debug\net6.0\Employee Manager.dll
+D:\DotNet 2022\Employee Manager\obj\Debug\net6.0\refint\Employee Manager.dll
+D:\DotNet 2022\Employee Manager\obj\Debug\net6.0\Employee Manager.pdb
+D:\DotNet 2022\Employee Manager\obj\Debug\net6.0\Employee Manager.genruntimeconfig.cache
+D:\DotNet 2022\Employee Manager\obj\Debug\net6.0\ref\Employee Manager.dll

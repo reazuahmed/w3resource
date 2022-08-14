@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JavaScript String lastIndexOf() Method</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <script>
+        //lastIndexOf(textLookingFor, index):
+        //Means: প্রথমে সে index-number (position) খুঁজে বের করবে।
+        //তারপর বামদিকে string কে খোঁজা শুরু করবে
+        //এবং তার index-number প্রদান করবে।।
+        var str = "We are learning JavaScript so far.";
+
+        document.write(str.lastIndexOf('r'));
+        document.write("<br/>");
+
+        document.write(str.lastIndexOf('r', 5));
+        document.write("<br/>");
+
+        document.write(str.lastIndexOf("JavaScript", 25));
+        document.write("<br/>");
+
+        document.write(str.lastIndexOf('r', 25));
+        document.write("<br/>");
+    </script>
+</body>
+
+</html>
