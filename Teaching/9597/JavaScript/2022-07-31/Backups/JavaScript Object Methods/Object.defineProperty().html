@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JavaScript Object.defineProperty() Method</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <p>The <strong>Object.defineProperty()</strong> method defines a new property directly on an object and returns the object. To change the flags, we can use Object.defineProperty. We cannot change it back, because define property doesn?t work on non-configurable
+        properties.
+    </p>
+
+    <script>
+        document.write("<h2>Example 1</h2>");
+        const object1 = {};
+        Object.defineProperty(object1, 'property1', {
+            value: 22,
+            //value: 33,
+        });
+        object1.property1;
+        //throws an error in strict mode
+        document.write(object1.property1);
+
+        document.write("<h2><u>Example 2</u></h2>");
+
+        const object2 = {};
+        Object.defineProperty(object2, 'property2', {
+            value: 42,
+            value: 52,
+            value: 542,
+        });
+        object2.property2 = 177;
+        //throws an error in strict mode
+        //console.log(object2.property2);
+        document.write(object2.property2);
+
+        document.write("<h2><u>Example 3</u></h2>");
+        const object3 = {};
+        Object.defineProperty(object3, 'property3', {
+            value: 2,
+            value: 4,
+            //value: 4 + 13,
+            value: 4 + 13
+        });
+        object3.property3;
+        document.write(object3.property3);
+    </script>
+</body>
+
+</html>

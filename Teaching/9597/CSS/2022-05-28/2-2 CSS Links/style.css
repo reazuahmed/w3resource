@@ -1,0 +1,64 @@
+a.one:link {
+    color: #ff0000;
+}
+
+a.one:visited {
+    color: yellowgreen;
+}
+
+a.one:hover {
+    color: blue;
+}
+
+a.two:link {
+    color: #ff0000;
+}
+
+a.two:visited {
+    color: yellow;
+}
+
+a.two:hover {
+    font-size: 200%;
+}
+
+a.three:link {
+    color: #ff0000;
+}
+
+a.three:visited {
+    color: #0000ff
+}
+
+a.three:hover {
+    background: #66ff66;
+}
+
+a.four:link {
+    color: #ff0000;
+}
+
+a.four:visited {
+    color: #0000ff;
+}
+
+a.four:hover {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a.five:link {
+    color: #ff0000;
+    text-decoration: none;
+}
+
+a.five:visited {
+    color: green;
+    text-decoration: none;
+}
+
+a.five:hover {
+    text-decoration: underline;
+    background-color: white;
+    font-size: xx-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

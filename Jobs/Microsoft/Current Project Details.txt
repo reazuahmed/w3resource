@@ -1,0 +1,25 @@
+Current project details:
+	- Currently I am working as a Senior Software Engineer at Microsoft Redmond, WA.
+	- My technology stuffs include but not limited to
+		- DotNet C#
+		- DotNet Core MVC
+		- SQL Server
+		- ADO(Azure DevOps)
+		- ASP.Net / ASP.Net Core Web API
+		- RESTful Development
+		- Domain Driven Design
+		- JSON
+		- Angular with Material UI
+		- React
+		- Redux
+		- SSAS / CSS
+		- Manual, Unit Testing
+		- Customizing libraries
+		
+		- Azure Services
+			- Azure Active Directory
+			- Azure Content Delivery Network
+			- Azure FrontDoor
+			
+That's a short overview of my current project.
+		

@@ -1,0 +1,28 @@
+        a:link {
+            color: red;
+            text-decoration: none;
+            background-color: yellow;
+        }
+        
+        a:visited {
+            color: yellow;
+            text-decoration: none;
+            background-color: cyan;
+        }
+        
+        a:hover {
+            color: hotpink;
+            text-decoration: underline;
+            background-color: lightgreen;
+        }
+        
+        a:active {
+            color: blue;
+            text-decoration: underline;
+            background-color: hotpink;
+        }
+        /* 
+        Note:
+        =====
+        Comment : Ctrl+k, Ctrl+c
+        Uncomment: Ctrl+k, Ctrl+u */

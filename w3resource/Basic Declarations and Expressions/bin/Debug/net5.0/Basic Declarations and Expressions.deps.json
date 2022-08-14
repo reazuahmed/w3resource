@@ -7,8 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "Basic Declarations and Expressions/1.0.0": {
+        "dependencies": {
+          "EO.WebBrowser": "22.1.67"
+        },
         "runtime": {
           "Basic Declarations and Expressions.dll": {}
+        }
+      },
+      "EO.WebBrowser/22.1.67": {
+        "runtime": {
+          "lib/EO.Base.dll": {
+            "assemblyVersion": "22.1.67.0",
+            "fileVersion": "22.1.67.0"
+          },
+          "lib/EO.WebBrowser.dll": {
+            "assemblyVersion": "22.1.67.0",
+            "fileVersion": "22.1.67.0"
+          },
+          "lib/EO.WebEngine.dll": {
+            "assemblyVersion": "22.1.67.0",
+            "fileVersion": "22.1.67.0"
+          }
         }
       }
     }
@@ -18,6 +37,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "EO.WebBrowser/22.1.67": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-nPPcFNJTevuLBuo5whxI6m1ASK+ACi+x4zNckLii7Oh+RMrI/Y+J/jSzZhVSzh5m2qp2E9hANlAZEMPGsKui2w==",
+      "path": "eo.webbrowser/22.1.67",
+      "hashPath": "eo.webbrowser.22.1.67.nupkg.sha512"
     }
   }
 }

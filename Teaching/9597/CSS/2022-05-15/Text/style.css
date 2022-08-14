@@ -1,0 +1,64 @@
+body {
+    background-color: lightgray;
+    color: blueviolet;
+}
+
+p.lowercase {
+    text-transform: lowercase;
+    text-indent: 100px;
+    line-height: 1.5;
+    word-spacing: 20px;
+    white-space: nowrap;
+    text-shadow: 2px 2px;
+}
+
+p.uppercase {
+    text-transform: uppercase;
+    text-indent: 100px;
+    line-height: 2.0;
+    word-spacing: -1px;
+}
+
+p.capitalize {
+    text-transform: capitalize;
+    text-indent: 100px;
+    line-height: 3.5;
+}
+
+h1 {
+    background-color: greenyellow;
+    color: red;
+    text-align: center;
+    /* text-decoration-line: line-through; */
+    letter-spacing: 5px;
+    text-shadow: 4px 4px 3px green;
+}
+
+h2 {
+    text-align: left;
+    text-decoration-line: overline;
+}
+
+h3 {
+    text-align: right;
+    text-decoration-line: underline;
+}
+
+div {
+    background-color: aqua;
+    color: black;
+    text-align: justify;
+    /* text-align: unset; */
+}
+
+div.center {
+    text-align-last: center;
+}
+
+div.right {
+    text-align-last: right;
+}
+
+div.left {
+    text-align-last: left;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JavaScript indexOf() Method</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <script>
+        var str = "আমার সোনার বাংলা, আমি তোমায় ভালোবাসি ক।।";
+        //যেখান থেকে searching শুরু হয়, ঠিক সেই জায়গাটার index-value দেখাবেঃ
+        document.write(str.indexOf('ক', 15));
+        document.write("<br/>");
+        //একটা নির্দিষ্ট শব্দের প্রথম অক্ষর এর index-value বের করার জন্যঃ
+        document.write(str.indexOf("ভালোবাসি"));
+        document.write("<br/>");
+        document.write(str.indexOf("া", 30));
+        document.write("<br/>");
+        var caseSensitivityTest = "This Is Reaz Uddin Ahmed.";
+        document.write(caseSensitivityTest.indexOf("reaz"));
+        //document.write(str.length);
+    </script>
+</body>
+
+</html>

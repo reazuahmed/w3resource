@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Object.assign()</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h2><u>JavaScript <strong>Object.assign()</strong> Method:</u></h2>
+    <script>
+        const object1 = {
+            a: 100,
+            b: 200,
+            c: 300
+        };
+        const object2 = {
+            d: 400,
+            e: 500,
+            f: 600
+        };
+
+        const object3 = Object.assign({
+            a: 111,
+            x: 999
+        }, object1);
+
+        const object4 = Object.assign({
+            f: 666,
+            z: 888
+        }, object2);
+
+        // console.log(object3.a, object3.x);
+        // console.log(object4.f, object4.z);
+
+        document.write(object3.a, "<br>", object3.x);
+        document.write("<br>", object4.f, "<br>", object4.z);
+    </script>
+
+</body>
+
+</html>

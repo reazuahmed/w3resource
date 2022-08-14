@@ -1,0 +1,53 @@
+﻿@page "/"
+@*/*This is the page-directive so that we can navigate to that slash (/).*/*@
+
+@using Blazor.Server.Data
+
+
+@inject IJSRuntime JSRuntime
+@inject WeatherForecastService WeatherService
+@inject LocalStorageService LocalStorage
+
+<h1>Hello, @Name!</h1>
+
+<button @onclick="TriggerAlert">Trigger Alert</button>
+<button @onclick="ShowPrompt">Show Prompt</button>
+
+@code{
+
+    public string Name { get; set; } = "World";
+
+    public async Task TriggerAlert()
+    {
+        var forecast = await WeatherService.GetForecastAsync(DateTime.Now);
+        //await JSRuntime.InvokeVoidAsync("myApp.triggerAlert", Name);
+        await JSRuntime.InvokeVoidAsync("myApp.triggerAlert", forecast[0]); //If we pass in the first-object from "forecast",
+                                                                            //that means our JavaScript function should get
+                                                                            //the first object from the forecast.
+                                                                            //And this is gonna be the type "WeatherForecast".
+    }
+
+    public async Task ShowPrompt()
+    {
+        //var result = await JSRuntime.InvokeAsync<string>("myApp.showPrompt", "");
+        var result = await JSRuntime.InvokeAsync<string>("prompt", "Your name..."); //Since prompt isglobally available, we
+                                                                                    //don't nee to copy "myApp.showPrompt"
+                                                                                    //from "scripts.js" file.
+                                                                                    //var result = await JSRuntime.InvokeAsync<string>("prompt", "Your name...");
+                                                                                    //If we already have any global function,
+                                                                                    //we should use that. We should not use
+                                                                                    //any JavaScript function.
+                                                                                    //if (string.IsNullOrEmpty(result))   //Meaning: If the "string" is null or empty, check the result.
+        if (!string.IsNullOrEmpty(result))
+        {
+            Name = result;
+            await LocalStorage.SetItemAsync("name", result);
+        }
+    }
+
+    [JSInvokable] //Use this [decorator] so that the method "Greet" becomes available to be called from JavaScript.
+    public static string Greet(string name)
+    {
+        return "Hello, " + name;
+    }
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JavaScript Object.assign() Method</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <script>
+        const object1 = {
+            a: 1,
+            b: 2,
+            c: 3 //,
+                //d: 8
+        };
+        const object3 = {
+            g: 11111,
+            h: 22222,
+            i: 3
+        };
+
+        const object2 = Object.assign({
+            c: 4,
+            d: 5
+        }, object1);
+
+        const object4 = Object.assign({
+            g: 30,
+            h: 20
+        }, object3);
+
+        document.write(object2.c, "<br/>", object2.d, "<br/>");
+        document.write(object4.g, "<br/>", object4.h, "<br/>");
+    </script>
+</body>
+
+</html>

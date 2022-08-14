@@ -14,3 +14,7 @@ D:\w3resource\Basic Declarations and Expressions\obj\Debug\net5.0\Basic Declarat
 D:\w3resource\Basic Declarations and Expressions\obj\Debug\net5.0\ref\Basic Declarations and Expressions.dll
 D:\w3resource\Basic Declarations and Expressions\obj\Debug\net5.0\Basic Declarations and Expressions.pdb
 D:\w3resource\Basic Declarations and Expressions\obj\Debug\net5.0\Basic Declarations and Expressions.genruntimeconfig.cache
+D:\w3resource\Basic Declarations and Expressions\bin\Debug\net5.0\EO.Base.dll
+D:\w3resource\Basic Declarations and Expressions\bin\Debug\net5.0\EO.WebBrowser.dll
+D:\w3resource\Basic Declarations and Expressions\bin\Debug\net5.0\EO.WebEngine.dll
+D:\w3resource\Basic Declarations and Expressions\obj\Debug\net5.0\Basic Declarations and Expressions.csproj.CopyComplete

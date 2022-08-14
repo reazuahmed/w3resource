@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JavaScript <strong>Object.defineProperties()</strong> Method</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h2><u>Object.defineProperties()</u></h2>
+    <p>The <strong>Object.defineProperties()</strong> method defines new or modifies existing properties directly on an object, and returning the object.</p>
+
+    <script>
+        document.write("<b><u>Example 1:</u></b> <br/>");
+        const object1 = {};
+        Object.defineProperties(object1, {
+            property1: {
+                value: 44
+            }
+        });
+        document.write(object1.property1);
+
+        document.write("<b><u><br/><br/>Example 2:</u></b> <br/>");
+
+        const object2 = {};
+        Object.defineProperties(object2, {
+            property2: {
+                value: 142,
+                value: 422,
+                value: 423,
+            },
+            property3: {}
+        });
+        document.write(object2.property2);
+
+        document.write("<b><u><br/><br/>Example 3:</u></b> <br/>");
+
+        const obj = {};
+        Object.defineProperties(obj, {
+            property4: {
+                value: 142,
+                value: 422,
+                value: 423,
+            },
+            property5: {
+                value: 22,
+                value: 12,
+            }
+        });
+        document.write(obj.property4, "<br>", obj.property5);
+    </script>
+</body>
+
+</html>

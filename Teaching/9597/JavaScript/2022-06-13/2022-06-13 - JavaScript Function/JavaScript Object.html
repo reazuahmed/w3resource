@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JavaScript Object</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h1><u>JavaScript Object : </u></h1>
+    <h1><u>Object created by literal: </u></h1>
+    <script>
+        var TAB = "\t";
+
+        student = {
+            id: 001,
+            name: "Reaz U Ahmed",
+            subject: "Computer Science"
+        }
+        document.write(student.id + " " + student.name + " " + student.subject);
+        document.write("<br/> <br/>");
+
+        document.write(student.id + "<br/>" + student.name + "<br/>" + student.subject);
+        document.write("<br/> <br/>");
+
+        document.write("Student Id : " + student.id + "<br/>" + "Student Name : " + student.name + "<br/>" + "Student Subject : " + student.subject);
+
+        document.write("<br/> <br/>");
+        document.write("Id : " + TAB + student.id + "<br/>" + "Student Name : " + student.name + "<br/>" + "Student Subject : " + student.subject);
+        document.write("<br/> <br/>");
+        document.write("<br/> <br/>");
+    </script>
+
+    <h1><u>By creating instance of Object : </u></h1>
+    <script>
+        var student = new Object();
+
+        student.id = 1111;
+        student.village = "Reaz";
+        student.motherName = "Rubia Begum";
+
+        document.write(student.id + "<br/>" + student.village + "<br/>" + student.motherName);
+        document.write("<br/> <br/>");
+        document.write("<br/> <br/>");
+    </script>
+
+    <h1><u>By using Object constructor : </u></h1>
+    <script>
+        function student(rollNo, country, height) {
+            this.rollNo = rollNo;
+            this.country = country;
+            this.height = height;
+        }
+
+        stu = new student(1, "Bangladesh", "5'7\"");
+
+        document.write(stu.rollNo + " " + stu.country + " " + stu.height);
+    </script>
+</body>
+
+</html>

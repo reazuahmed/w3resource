@@ -1,0 +1,11 @@
+﻿URLs:
+	https://www.youtube.com/watch?v=FcNVwdSxwxA&list=PLqCbg_KAOnCdRm3FI1EvndnsNNWz_1A5c&index=2
+
+
+
+Next Start:
+	https://www.youtube.com/watch?v=AF4C1eC7AVQ&list=PLqCbg_KAOnCdRm3FI1EvndnsNNWz_1A5c&index=6
+
+
+building Web apps with ASP.NET Core:
+	https://docs.microsoft.com/en-us/aspnet/core/?view=aspnetcore-6.0

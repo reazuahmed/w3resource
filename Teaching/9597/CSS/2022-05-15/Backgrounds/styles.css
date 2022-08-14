@@ -1,0 +1,35 @@
+body{
+    /* background-color: aqua;
+    background-image: url("images/bg-image.jpg"); */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: no-repeat;
+    background-position: top center; */
+    /* background-attachment: scroll; */
+    /* background-attachment: fixed; */
+
+    /* background in short-hand */
+    background: repeat url("images/bg-image.gif") #70B6AA fixed left top;
+}
+
+h1{
+    background-color: coral;
+}
+
+div{
+    background-color: gold;
+    opacity: 0.5;
+    /* padding-top: 35px;
+    padding-right: 225px;
+    padding-bottom: 40px;
+    padding-left: 120px; */
+
+    /* padding int short-hand */
+    /* padding: 100px 100px 100px 100px; */
+    /* padding: 10px 40px 70px; */
+    padding: 10px 70px;
+    padding: 10px;
+}
+
+p{
+    background-color: azure;
+}

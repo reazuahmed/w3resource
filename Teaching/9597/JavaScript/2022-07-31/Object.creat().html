@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Object.create()</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h2><u>JavaScript <strong>Object.create()</strong> Method</u></h2>
+
+    <script>
+        document.write("<h2><u>Example 1</u></h2>");
+        const person = {
+            printIntroduction: function() {
+                document.write(`I am ${this.name}. Are you sure? ${this.isHuman}`);
+            }
+        };
+
+        const me = Object.create(person);
+        me.name = "Sam";
+        me.isHuman = true;
+        me.printIntroduction();
+
+
+        document.write("<h2><u>Example 2</u></h2>");
+
+        function food() {
+            this.name = "Rosgolla";
+        }
+
+        function fun() {
+            food.call(this);
+        }
+
+        fun.prototype = Object.create(food.prototype);
+        const boom = new fun();
+        document.write(boom.name);
+
+
+        document.write("<h2><u>Example 3</u></h2>");
+
+        function fruits() {
+            this.name = "Mango";
+            this.season = "Summer";
+        }
+
+        function orange() {
+            fruits.call(this);
+        }
+
+        orange.prototype = Object.create(fruits.prototype);
+        const or = new orange();
+        document.write(or.name, "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;", or.season, "<br>");
+        document.write(or.season);
+    </script>
+</body>
+
+</html>

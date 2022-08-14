@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Object.create() Method :</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <p><b>The Object.create()</b> method is used to create a new object with the specified prototype object and properties. We can create an object without a prototype by <strong>Object.creates (null).</strong></p>
+
+    <script>
+        document.write("<h2><u>Example1</u></h2>")
+        const people = {
+            // function printIntroduction() {   //incorrect
+            printIntroduction: function() {
+                //console.log(`My name is ${this.name}. Am I human? ${this.isHuman}`);
+                document.write(`My name is ${this.name}. Am I human? ${this.isHuman}`);
+            }
+        };
+        const me = Object.create(people);
+        me.name = "Reaz";
+        me.isHuman = true;
+        me.printIntroduction();
+
+        // const people = {
+        //     printIntroduction: function() {
+        //         console.log(`My name is ${this.name}. Am I human? ${this.isHuman}`);
+        //     }
+        // };
+        // const me = Object.create(people);
+        // me.name = "Marry"; // "name" is a property set on "me", but not on "person"  
+        // me.isHuman = true; // inherited properties can be overwritten  
+        // me.printIntroduction();
+
+        document.write("<h2><u>Example2</u></h2>")
+
+        function fruits() {
+            this.name = "Mango";
+        }
+
+        function fun() {
+            fruits.call(this);
+        }
+
+        fun.prototype = Object.create(fruits.prototype);
+        const app = new fun();
+        document.write(app.name);
+
+        document.write("<h2><u>Example3</u></h2>")
+
+        function fruits1() {
+            this.name = 'fruit';
+            this.season = 'Winter';
+        }
+
+        function apple() {
+            fruits1.call(this);
+        }
+
+        apple.prototype = Object.create(fruits1.prototype);
+        const app1 = new apple();
+        //document.write(app1.name, "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;", app1.season);
+        document.write(app1.name, "<br/>", app1.season);
+        document.write("<br/>")
+        document.write(app1.season);
+    </script>
+</body>
+
+</html>

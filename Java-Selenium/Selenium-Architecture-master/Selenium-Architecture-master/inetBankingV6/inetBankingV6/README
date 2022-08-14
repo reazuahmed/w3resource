@@ -1,0 +1,174 @@
+URL: https://www.youtube.com/watch?v=M4Ye3SKT46g&list=PLUDwpEzHYYLsmuyHqL44P2GqU1FHrutZu
+
+Start from: 1:14:09/4:04:54
+
+Phase-1: Implementation
+	> Create Maven Project						- done
+	> Update pom.xml							- done
+	> Create Page Objects						- done
+	> Create Basic Test case					- done
+	> Add logs to test case						- done
+	> Read common values from properties file	- done
+	> Run test case on desired browser			
+	> Add extent report
+	> Create Data Driven test case
+	> Adding new test case
+	
+
+URLs:
+	http://demo.guru99.com/v3/index.php
+
+	https://demo.guru99.com/v4
+		User ID:	mngr242858
+		Password:	yqedypU
+		
+		testseleniumreaz@gmail.com
+
+STAGES/PHASES
+-------------
+1) Implementation
+2) Execution
+3) Maintanance
+
+Maven
+pom.xml
+
+We can download dependencies from this site: https://mvnrepositories.com
+
+log4j:
+------
+	Requirements:
+		log4j.jar
+		log4j.properties
+
+========================================================================================
+Assignment:
+-----------
+1) Create new Maven project
+2) Update pom.xml
+3) Create folder structure
+4) Create Page Object class for login scresn
+5) Create base class
+6) Create Basic Test Case
+7) Add logs to test case
+========================================================================================
+
+Difference between Utility and Base class
+	Utility class: the supported files. For example: Listener class. The class that we can reuse. We don't use any TestNg feature in the Utility class. They are just supported class. Without having utility files, we cannot create the test cases. Utilities are supported files for every test case.
+	Examples: ReadConfig.java, Reporting.java, XLUtils.java
+	
+	Base class: We write base class with some methods along with annotations. BUT in the Utility classes we don't have any annotation.
+	Examples: LoginTest.java, AddNewCustomer.java, EditCustomer.java, DeleteCustomer.jva
+
+
+========================================================================================
+Read common values from properties file:
+----------------------------------------
+config.properties
+ReadConfig.java - Utility file
+------------------------------
+
+System.getProperty("user.dir") --> only in java class
+System.getProperty("user.dir") = ./ --> can be used both in java classes and in properties file only. It denotes the home-directory.
+
+chromepath = ./Drivers\\chromedriver.exe --> forward-slash (/) can be used in the properties file only.
+	*** back-slash (.\) can be used 
+	
+	*** properties files only accept the back-slashes.
+	*** java classes will accept only forward-slashes.
+========================================================================================
+Run test case on desired browser:
+---------------------------------	
+
+
+Add extent report:
+------------------
+1) jars - POM.xml will take care of this
+2) extent-config.xml - We have to keep this in project-home-directory
+3) listener (Reporting.java) --> Utility file -- Need to generate the reports
+4) add entry in testng xml file 
+
+
+tech tools
+strong in sql
+
+================================================================================================
+
+Day 19
+--------
+1) Data Driven test
+-------------------
+Apache poi jars
+XLS file (test data)
+XLUtils.java
+
+@DataProvider
+
+===========================================
+inetBankingV6
+=============
+New Test Case
+-------------
+*** We already have done the Framework. So we do not have to do anything.
+So the only thing is, first of all we have create a PageObjectClass.
+1) Page class
+2) Test case
+Only these 2 things we have to do. Because everything is ready.
+Suppose, if we are automating another Data Driven Test Case, test data file required or not required.
+And Utility files: ReadConfig, Reporting, XLUtils are there. So, we do not need any more Utils files.
+These are enough!
+And Configuration file- we already have 1 Configuration file (config.properties). That is enough!
+Drivers are available.
+Logs are also generating under the 'log' folder.
+Screenshots are there. So, this is also ready. And extent-config is there, log4j is there
+--- Everything is ready now!
+So, we DO NOT need to add anything new stuff in the framework.
+So, with this we have done complete framework. Roundwork is done!
+
+So, from now on our job is very very easy.
+
+Now, we will see how add new test case. And similarly we can also follow the same other test cases.
+So, we can also automate other test cases.
+----------------------------------------------------
+
+Now, we will add New Customer in the website.
+For this, first of all we have to log into the site.
+Then - click "New Customer" from the left-panel
+Then - fill all the fields in.
+	- For this we need to create a new object class.
+	- We need to create action methods for every element.
+	- That is the first task
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+========================================================================================
+Config.properties - ReadConfig.java - BaseClass.java
+	These 3 classes have a communication(relation) as follows:
+		'ReadConfig.java' class will get (read) the data from the config.properties file and it (ReadConfig.java) will provide the data to the BaseClass.java.
+
+========================================================================================
+
+
+
+
+
+
+	Sikuli is a tool to automate Graphical User Interfaces (GUI) using the “Visual Image Match” method. In Sikuli, all the web elements should be taken as an image and stored inside the project. ... Sikuli provides very friendly Sikuli-script. jar, which can be easily used together with Selenium WebDriver.Jan 10, 2020
+	
+	
+For creating TestCases, we need to create the PageObject class first.
+

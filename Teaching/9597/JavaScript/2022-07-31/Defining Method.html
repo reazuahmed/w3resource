@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Defining Method in javaScript Object</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <h2>Defining Method in javaScript Object</h2>
+    <script>
+        function student(id, name, faculty, subject, semester_fee) {
+            this.id = id;
+            this.name = name;
+            this.faculty = faculty;
+            this.subject = subject;
+            this.semester_fee = semester_fee;
+
+            this.changeName = changeName;
+            this.changeSubject = changeSubject;
+            this.changeSemesterFee = changeSemesterFee;
+
+            function changeName(otherName) {
+                this.name = otherName;
+            }
+
+            function changeSubject(otherSubject) {
+                this.subject = otherSubject;
+            }
+
+            function changeSemesterFee(otherFee) {
+                this.semester_fee = otherFee;
+            }
+        }
+
+        s = new student(001, "Hasan Mahmud", "Business", "Business Administration", 5000);
+        document.write(s.id + " " + s.name + " " + s.faculty + " " + s.subject + " " + s.semester_fee);
+        s.changeName("Zenea");
+        s.changeSubject("Management");
+        s.changeSemesterFee(1000);
+        document.write("<br>" + s.id + " " + s.name + " " + s.faculty + " " + s.subject + " " + s.semester_fee);
+    </script>
+
+</body>
+
+</html>

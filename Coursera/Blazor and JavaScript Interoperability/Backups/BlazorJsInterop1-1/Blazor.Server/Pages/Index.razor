@@ -1,0 +1,19 @@
+﻿@page "/"   
+    
+    @*/*This is the page-directive so that we can navigate to that slash (/).*/*@
+
+@inject IJSRuntime JSRuntime
+
+<h1>Hello, world!</h1>
+
+<button @onclick="TriggerAlert">Trigger Alert</button>
+
+@code{
+    
+    public string Name { get; set; } = "World";
+
+    public async Task TriggerAlert()
+    {
+        await JSRuntime.InvokeVoidAsync("myApp.triggerAlert", Name);
+    }
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Object.assign()</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <p><b>"Object.assign()"</b> method is used to copy enumerable and own properties from a source object to a target object</p>
+    <p><b>Syntax : </b> &nbsp; &nbsp; Object.assign(target, source)</p>
+    <p><b>Parameter : </b> &nbsp; &nbsp; <b>target: The target object. </b> <b>source: The source object(s).</b> <br> <b>Return Value: &nbsp; &nbsp; This method returns the target object.</b></p>
+
+    <script>
+        const object1 = {
+            a: 1,
+            b: 2,
+            c: 3
+        }
+        const object3 = {
+            g: 1,
+            h: 2,
+            i: 3
+        }
+
+        const object2 = Object.assign({
+            c: 4,
+            k: 4,
+            d: 5
+        }, object1);
+        const object4 = Object.assign({
+            g: 34,
+            h: 25
+        }, object3);
+        // console.log(object2.c, "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;", object2.d);
+        // console.log(object4.g, "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;", object4.h);
+
+        console.log(object2.c, object2.d);
+        //console.log(object2.k, object2.d);
+        console.log(object4.g, object4.h);
+
+        // const object2 = Object.assign({
+        //     c: 4,
+        //     d: 5
+        // }, object1);
+        // const object4 = Object.assign({
+        //     g: 34,
+        //     h: 25
+        // }, object3);
+        // document.write(object2.c, "&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;", object2.d);
+        // document.write("<br />")
+        // document.write(object4.g, "&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;", object4.h);
+    </script>
+</body>
+
+</html>

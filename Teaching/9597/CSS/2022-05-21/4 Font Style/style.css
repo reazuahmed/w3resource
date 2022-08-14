@@ -1,0 +1,11 @@
+p.italic {
+    font-style: italic;
+}
+
+p.bold {
+    font-style: normal;
+}
+
+p.oblique {
+    font-style: oblique;
+}

@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Blazor.Server
+build_property.ProjectDir = D:\Coursera\Blazor and JavaScript Interoperability\BlazorJsInterop\Blazor.Server\

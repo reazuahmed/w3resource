@@ -1,15 +1,53 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "EO.WebBrowser/22.1.67": {
+        "type": "package",
+        "compile": {
+          "lib/EO.Base.dll": {},
+          "lib/EO.WebBrowser.dll": {},
+          "lib/EO.WebEngine.dll": {}
+        },
+        "runtime": {
+          "lib/EO.Base.dll": {},
+          "lib/EO.WebBrowser.dll": {},
+          "lib/EO.WebEngine.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "EO.WebBrowser/22.1.67": {
+      "sha512": "nPPcFNJTevuLBuo5whxI6m1ASK+ACi+x4zNckLii7Oh+RMrI/Y+J/jSzZhVSzh5m2qp2E9hANlAZEMPGsKui2w==",
+      "type": "package",
+      "path": "eo.webbrowser/22.1.67",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "eo.webbrowser.22.1.67.nupkg.sha512",
+        "eo.webbrowser.nuspec",
+        "lib/EO.Base.dll",
+        "lib/EO.Base.xml",
+        "lib/EO.WebBrowser.dll",
+        "lib/EO.WebBrowser.xml",
+        "lib/EO.WebEngine.dll",
+        "lib/EO.WebEngine.xml",
+        "tools/GACTools.exe",
+        "tools/eowp.exe"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "EO.WebBrowser >= 22.1.67"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\alfa_\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -21,18 +59,21 @@
       "outputPath": "D:\\w3resource\\Basic Declarations and Expressions\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\alfa_\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net5.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -50,6 +91,12 @@
     "frameworks": {
       "net5.0": {
         "targetAlias": "net5.0",
+        "dependencies": {
+          "EO.WebBrowser": {
+            "target": "Package",
+            "version": "[22.1.67, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -65,8 +112,20 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'EO.WebBrowser 22.1.67' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework 'net5.0'. This package may not be fully compatible with your project.",
+      "libraryId": "EO.WebBrowser",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
 }
