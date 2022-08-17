@@ -1,12 +1,21 @@
-ASP.NET Core MVC CRUD - .NET 6 MVC CRUD Operations Using Entity Framework Core and SQL Server
+ASP.NET Core MVC CRUD - .NET 6 MVC CRUD Operations Using Entity Framework Core and SQL Server - Done
 	https://www.youtube.com/watch?v=2Cp8Ti_f9Gk
 	
 	Problems at:
 	============
 		49:09
 
+Doing:
 ASP.NET 6 Core CRUD operations using SQL stored procedure and Dapper in Hindi
 	https://www.youtube.com/watch?v=wSUprBNgsCo
+
+	44:07
+
+EXT JS & ASP NET Core - Building Stock Market Application
+	https://www.youtube.com/watch?v=zYy58HpnVUM
+
+Identity with a .NET 6 Web API & Blazor WebAssembly
+	https://www.youtube.com/watch?v=6_S46MCokbk
 
 ASP.NET CORE WEB API CRUD With Angular 13 - .NET 6 WEB API With Angular 13 CRUD Website
 	https://www.youtube.com/watch?v=eCbaZixsP-s
@@ -30,3 +39,20 @@ Build Amazing Apps With ANGULAR and ASP.NET Core REST API
 276 results for “Sameer Saini”
 	https://www.udemy.com/courses/search/?src=ukw&q=+Sameer+Saini
 
+
+
+ASP.NET Core 6 .NET 6 for Beginners (Full Course) [2022]
+	https://www.youtube.com/watch?v=UjiOVweDbws
+
+
+Business ERP Solutions Tutorial:
+	https://www.youtube.com/watch?v=aY_heodvGqw&list=PLAAtmHo4b1Sn5Y__id_MamEYTZ_rIDd5A
+
+Online Job Portal (Part 1 Database in Sql Server)
+	https://www.youtube.com/watch?v=6KiAWYlleEc&list=PLAAtmHo4b1SkkW5nV-Uvb4YD7LbnCFbwF&index=1
+
+Database first approach in ASP.NET Core 6 Complete CRUD Operation
+	https://www.youtube.com/watch?v=zQLdpm8icTw
+
+User Sign-Up 🚀 Verify/Confirm Email & Forgot/Reset Password with a .NET 6 Web API
+	https://www.youtube.com/watch?v=2Q9Uh-5O8Sk

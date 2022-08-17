@@ -8,7 +8,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddSingleton<StudentServices, StudentServices>();  //Reaz
+builder.Services.AddSingleton<IStudentServices, StudentServices>();  //Reaz
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

@@ -1,0 +1,8 @@
+Features:
+1. Users don't have keep track of his passwords manuall.
+2. PasswordRobot will help the user remember all his passwords.
+3. They even can see the history.
+	3.1 If user wishes, he can disable the "Remember password history" feature
+4. Passwords should be protected through phone authentication so that hackers cannot steal it.
+5. It will be on Desktop, Web, Tab, Android, IOS and all other possible platforms.
+7. 

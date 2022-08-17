@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Clock</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    Currently the time is: <span style="color: blue;" id="currentTime"></span>
+    <script>
+        window.onload = function() {
+            getCurrentTime();
+        }
+
+        function getCurrentTime() {
+            var date = new Date();
+
+            var standarTime = date.getUTCHours();
+
+            if (date <= "10/01") {
+                hour = standarTime - 5;
+            }
+
+            //var hour = date.getUTCHours();
+            var hour = date.getDate();
+            var minute = date.getMinutes();
+            var second = date.getSeconds();
+            var milliSecond = date.getMilliseconds();
+
+            hour = checkTime(hour);
+            minute = checkTime(minute);
+            second = checkTime(second);
+
+            document.getElementById('currentTime').innerHTML = hour + ":" + minute + ":" + second + ":" + milliSecond;
+        }
+
+        function checkTime(i) {
+            if (i < 10) {
+                i = "0" + i;
+            }
+            return i;
+        }
+    </script>
+</body>
+
+</html>

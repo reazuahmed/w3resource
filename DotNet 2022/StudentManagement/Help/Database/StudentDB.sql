@@ -20,12 +20,13 @@ begin
 SELECT * FROM Students
 end
 
+
+
 Create PROC dbo.InsertStudent
 (
 @StudentName nvarchar(150),
 @EmailAddress nvarchar(150),
 @City nvarchar(150),
-@CreationDate datetime,
 @CreatedBy int
 )
 as

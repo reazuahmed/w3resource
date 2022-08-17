@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>JavaScript Date object</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <p>
+        Right now the date is: <span id='txtDate'></span>
+    </p>
+    <script>
+        var date = new Date();
+
+        document.getElementById('txtDate').innerHTML = date;
+        document.write("<br/>");
+        document.write("<br/>");
+        //2022 - 8 - 20
+
+        var year = date.getFullYear();
+        var month = date.getMonth() + 1;
+        var day = date.getDate();
+
+        document.write("Full date: " + year + "-" + month + "-" + day);
+        document.write("<br/>");
+        document.write("<br/>");
+
+        var hour = date.getHours();
+        var minute = date.getMinutes();
+        var second = date.getSeconds();
+        document.write("Now the time is: " + hour + ":" + minute + ":" + second);
+        "Now the time is: 01:01:01";
+    </script>
+</body>
+
+</html>
