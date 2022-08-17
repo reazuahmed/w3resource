@@ -1,0 +1,8 @@
+﻿Installed packages:
+===================
+	- Dapper
+    - Microsoft.EntityFrameworkCore
+    - Microsoft.EntityFrameworkCore.Design
+    - Microsoft.EntityFrameworkCore.SqlServer
+    - Microsoft.VisualStudio.Web.CodeGeneration.Design
+    - System.Data.SqlClient
