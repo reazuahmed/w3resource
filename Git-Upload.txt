@@ -1,0 +1,79 @@
+How to upload files to github from Git Bash on Windows from scratch
+
+	https://www.youtube.com/watch?v=2vASHVT0qKc
+	
+Title: How to upload files to GitHub from Git Bash on Windows [from scratch]
+Write code like a Pro with AI-Powered code assistant plugin 👉 https://bit.ly/get-kite
+Description:
+In this video, we are going to learn how to upload files(source code) from windows to Github with Git Bash.
+
+Pre-requisite:
+1)Github account(To sign Up https://github.com/)
+2)Gitbash installed on your machine (To install git bash https://git-scm.com/downloads)
+
+Install git bash on your machine and launch it.
+
+Go to https://github.com/ and create a Repository. Copy the repository link and save it to your notepad.
+
+Below are the commands we are going to use to upload files to GitHub with Git Bash
+
+ls
+cd
+git init
+git remote add origin [gitLink]
+git remote -v
+git add .
+git commit -m "First commit"
+git push origin master
+
+ls- List all the files in the current directory
+
+If your source code is in the different directory, you need to change the directory on git bash with command cd followed by directory or path.
+
+cd - To change the directory
+
+git init- This command initializes the git in the given path. You can see the .git hidden files after this command gets executed.
+
+git remote add origin [gitLink]- gitLink denote the place where your code is stored in the remote repository
+
+git add .- Add all the files in the local directory to the remote repository
+
+git commit -m "First commit"- It establishes a connection with local repository
+
+git push origin master- It establishes a connection with a remote repository and upload your source code or files to GitHub
+
+Note: If you get fatal: remote origin already exists which means the connection is already established.
+
+Above method helps to push files or project folder to GitHub using the command line.
+
+******** Tutorial Playlists ********
+Google apps script tutorial for beginners- https://bit.ly/google-apps-script-tut...
+Automate internet explorer with VBA- https://goo.gl/Xmy8Af
+Autoit tutorials for beginners- https://goo.gl/JHB1E2
+Selenium Webdriver tutorials for beginners -https://goo.gl/QqxTrF
+
+**** Contact me ******
+Blog: www.amarindaz.com
+FB page: http://www.facebook.com/amarindaz
+
+***** Books written by me ******
+Autoit tutorials for beginners: http://amzn.to/2GjaDbD
+Excel VBA for beginners: http://amzn.to/2nhI067
+
+***** Productivity tool *******
+My Favorite YouTube Tools  ➜ https://goo.gl/MX9Z4p and ➜https://goo.gl/UW1uRX
+
+***** Gear Used To Shoot This Video ****
+_Audio & Microphone
+http://amzn.to/2GibdGu
+
+*******Learning partner*******
+Video courses ➜https://click.linksynergy.com/fs-bin/...
+
+Subscribe and stay tuned!
+
+💼 To Hire Me 👉 https://fwd.cx/WLGgpTiZW5HK
+
+👉 Kite is a free AI-powered coding assistant that will help you code faster & smarter. It integrates seamlessly with all top editors and IDE. Kite gives you smart completions and documentation while you’re typing. I've been using Kite on VSCode for 6 months and I love it! Check out Kite 👉 http://bit.ly/get-kite
+
+
